@@ -797,7 +797,7 @@ static OneSignalReceiveReceiptsController* _receiveReceiptsController;
 
     [OSNotificationsManager start];
 
-    [[OSMigrationController new] migrate];
+    //[[OSMigrationController new] migrate];
 //    sessionLaunchTime = [NSDate date];
     // TODO: sessionLaunchTime used to always be set in load
     
