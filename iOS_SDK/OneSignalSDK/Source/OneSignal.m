@@ -486,7 +486,7 @@ static OneSignalReceiveReceiptsController* _receiveReceiptsController;
         return;
     }
     
-    [[OSMigrationController new] migrate];
+    //[[OSMigrationController new] migrate];
     
     OSBackgroundTaskManager.taskHandler = [OSBackgroundTaskHandlerImpl new];
 
